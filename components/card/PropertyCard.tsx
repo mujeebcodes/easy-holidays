@@ -8,7 +8,6 @@ import { formatCurrency } from "@/utils/format";
 
 const PropertyCard = ({ property }: { property: PropertyCardProps }) => {
   const { id: propertyId, name, image, price, country, tagline } = property;
-  console.log(country);
 
   return (
     <article className="group relative">
